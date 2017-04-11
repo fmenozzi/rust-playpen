@@ -4,3 +4,4 @@ version = "0.1.0"
 authors = ["Federico Menozzi <federicogmenozzi@gmail.com>"]
 
 [dependencies]
+partition = "0.1.0"
