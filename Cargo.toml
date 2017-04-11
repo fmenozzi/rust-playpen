@@ -1,0 +1,6 @@
+[package]
+name = "rust-playpen"
+version = "0.1.0"
+authors = ["Federico Menozzi <federicogmenozzi@gmail.com>"]
+
+[dependencies]
