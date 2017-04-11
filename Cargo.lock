@@ -1,0 +1,11 @@
+[root]
+name = "rust-playpen"
+version = "0.1.0"
+dependencies = [
+ "quicksort 0.1.0",
+]
+
+[[package]]
+name = "quicksort"
+version = "0.1.0"
+

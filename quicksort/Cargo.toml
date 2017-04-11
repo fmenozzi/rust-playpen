@@ -1,9 +1,6 @@
 [package]
-name = "rust-playpen"
+name = "quicksort"
 version = "0.1.0"
 authors = ["Federico Menozzi <federicogmenozzi@gmail.com>"]
 
 [dependencies]
-quicksort = { path = "quicksort" }
-
-[workspace]
