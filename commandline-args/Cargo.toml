@@ -1,0 +1,8 @@
+[package]
+name = "commandline-args"
+version = "0.1.0"
+authors = ["Federico Menozzi <federicogmenozzi@gmail.com>"]
+
+[dependencies]
+clap = "2.23.2"
+
