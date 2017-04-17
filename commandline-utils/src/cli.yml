@@ -1,0 +1,18 @@
+name: commandline-utils
+version: "0.1.0"
+author: Federico Menozzi <federicogmenozzi@gmail.com>
+about: Sample commandline utils
+subcommands:
+    - echo:
+        name: echo
+        version: "0.1.0"
+        author: Federico Menozzi <federicogmenozzi@gmail.com>
+        args:
+            - no_newline:
+                short: n
+                help: Do not output trailing newline
+            - string:
+                required: true
+                takes_value: true
+                index: 1
+                help: Content to echo

@@ -1,0 +1,7 @@
+[package]
+name = "commandline-utils"
+version = "0.1.0"
+authors = ["Federico Menozzi <federicogmenozzi@gmail.com>"]
+
+[dependencies]
+clap = { version = "2.23.2", features = ["yaml"] }
