@@ -16,3 +16,24 @@ subcommands:
                 takes_value: true
                 index: 1
                 help: Content to echo
+    - wc:
+        name: wc
+        version: "0.1.0"
+        author: Federico Menozzi <federicogmenozzi@gmail.com>
+        args:
+            - chars:
+                short: m
+                long: chars
+            - words:
+                short: w
+                long: words
+                help: Print word counts
+            - lines:
+                short: l
+                long: lines
+                help: Print newline counts
+            - file:
+                takes_value: true
+                required: true
+                index: 1
+                help: File to count

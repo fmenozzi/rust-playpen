@@ -3,6 +3,7 @@ extern crate commandline_utils;
 extern crate clap;
 
 use commandline_utils::echo::echo;
+use commandline_utils::wc::wc;
 
 use clap::App;
 
@@ -12,7 +13,7 @@ fn main() {
 
     match matches.subcommand_name() {
         Some("echo") => echo(&matches),
-        Some("wc")   => println!("wc"),
+        Some("wc")   => wc(&matches),
         None | _     => panic!("Unexpected subcommand"),
     }
 }
