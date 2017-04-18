@@ -3,11 +3,13 @@ use clap::ArgMatches;
 pub fn echo(matches: &ArgMatches) {
     let echo_matches = matches.subcommand_matches("echo").unwrap();
 
-    let s = echo_matches.value_of("string").unwrap();
+    if let Some(vals) = echo_matches.values_of("strings") {
+        for val in vals {
+            print!("{} ", val);
+        }
+    }
 
-    if echo_matches.is_present("no_newline") {
-        print!("{}", s);
-    } else {
-        println!("{}", s);
+    if !echo_matches.is_present("no_newline") {
+        println!("");
     }
 }

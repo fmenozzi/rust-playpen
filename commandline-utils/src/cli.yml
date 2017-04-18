@@ -11,10 +11,10 @@ subcommands:
             - no_newline:
                 short: n
                 help: Do not output trailing newline
-            - string:
-                required: true
+            - strings:
                 takes_value: true
                 index: 1
+                multiple: true
                 help: Content to echo
     - wc:
         name: wc
