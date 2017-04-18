@@ -5,7 +5,7 @@ authors = ["Federico Menozzi <federicogmenozzi@gmail.com>"]
 
 [dependencies]
 quicksort = { path = "quicksort" }
-commandline-args = { path = "commandline-args" }
-commandline-utils = { path = "commandline-utils" }
+cli-args = { path = "cli-args" }
+cli-utils = { path = "cli-utils" }
 
 [workspace]

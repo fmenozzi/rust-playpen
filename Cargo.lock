@@ -2,8 +2,8 @@
 name = "rust-playpen"
 version = "0.1.0"
 dependencies = [
- "commandline-args 0.1.0",
- "commandline-utils 0.1.0",
+ "cli-args 0.1.0",
+ "cli-utils 0.1.0",
  "quicksort 0.1.0",
 ]
 
@@ -44,14 +44,14 @@ dependencies = [
 ]
 
 [[package]]
-name = "commandline-args"
+name = "cli-args"
 version = "0.1.0"
 dependencies = [
  "clap 2.23.2 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]
-name = "commandline-utils"
+name = "cli-utils"
 version = "0.1.0"
 dependencies = [
  "clap 2.23.2 (registry+https://github.com/rust-lang/crates.io-index)",

@@ -1,7 +1,8 @@
 [package]
-name = "commandline-utils"
+name = "cli-args"
 version = "0.1.0"
 authors = ["Federico Menozzi <federicogmenozzi@gmail.com>"]
 
 [dependencies]
-clap = { version = "2.23.2", features = ["yaml"] }
+clap = "2.23.2"
+
