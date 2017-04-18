@@ -1,9 +1,9 @@
-extern crate commandline_utils;
+extern crate cli_utils;
 #[macro_use]
 extern crate clap;
 
-use commandline_utils::echo::echo;
-use commandline_utils::wc::wc;
+use cli_utils::echo::echo;
+use cli_utils::wc::wc;
 
 use clap::App;
 
