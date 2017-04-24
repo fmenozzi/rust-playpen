@@ -37,3 +37,13 @@ subcommands:
                 required: true
                 index: 1
                 help: File to count
+    - cat:
+        name: cat
+        version: "0.1.0"
+        author: Federico Menozzi <federicogmenozzi@gmail.com>
+        args:
+            - files:
+                takes_value: true
+                index: 1
+                multiple: true
+                help: Files to cat
