@@ -1,6 +1,5 @@
-use gtk;
 use gtk::prelude::*;
-use gtk::{Button, Window, WindowType};
+use gtk::{self, Button, Window, WindowType};
 
 pub fn run() {
     if gtk::init().is_err() {
