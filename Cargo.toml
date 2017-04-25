@@ -7,5 +7,6 @@ authors = ["Federico Menozzi <federicogmenozzi@gmail.com>"]
 quicksort = { path = "quicksort" }
 cli-args = { path = "cli-args" }
 cli-utils = { path = "cli-utils" }
+gui-test = { path = "gui-test" }
 
 [workspace]

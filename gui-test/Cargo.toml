@@ -1,0 +1,8 @@
+[package]
+name = "gui-test"
+version = "0.1.0"
+authors = ["Federico Menozzi <federicogmenozzi@gmail.com>"]
+
+[dependencies.gtk]
+version = "0.1.2"
+features = ["v3_10"]
