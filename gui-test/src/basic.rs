@@ -1,5 +1,4 @@
-extern crate gtk;
-
+use gtk;
 use gtk::prelude::*;
 use gtk::{Button, Window, WindowType};
 
