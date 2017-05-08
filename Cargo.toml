@@ -8,5 +8,6 @@ quicksort = { path = "quicksort" }
 cli-args = { path = "cli-args" }
 cli-utils = { path = "cli-utils" }
 gui-test = { path = "gui-test" }
+glium-test = { path = "glium-test" }
 
 [workspace]
