@@ -9,5 +9,6 @@ cli-args = { path = "cli-args" }
 cli-utils = { path = "cli-utils" }
 gui-test = { path = "gui-test" }
 glium-test = { path = "glium-test" }
+gfx-test = { path = "gfx-test" }
 
 [workspace]
